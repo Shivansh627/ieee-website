@@ -1,0 +1,385 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+}
+
+header h1{
+    text-align: center;
+}
+
+header{
+    display: flex;
+    height: 15vh;
+    padding: 10px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(153, 6, 23);
+}
+header img{
+    height: 10vh;
+    margin-top: 1vh;
+    margin-left: 1.5vw;
+    margin-right: 1vw;
+}
+nav{
+    background-color: rgb(185, 17, 17);
+    display: flex;
+    position:relative;
+    height: 7vh;
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+    text-align: center;
+}
+nav ul li{
+    list-style: none;
+    justify-content: space-between;
+    text-align: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.first{
+    position: relative;
+    padding-top: 8vh;
+    padding-bottom:8vh ;
+    display: flex;
+    margin-bottom: 0.5vh;
+    box-sizing: border-box;
+}
+.det{
+    width: 40vw;
+    justify-content: center;
+    
+}
+
+.det h1{
+    /* margin-left: 5vw; */
+}
+
+.det .on{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.det img{
+    height: 4vh;
+    display: flex;
+    fill: rgb(146, 6, 20);
+    margin-right: 2vw;
+    
+}
+.det ul li{
+    list-style: none;
+    display: flex;
+    width: 35vw;
+    color: rgb(160, 6, 22);
+    align-items: center;
+}
+
+.link{
+    margin-top: 50px;
+    list-style: none;
+    display: flex;
+    
+}
+.link a img{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5vw;
+    position: relative;
+}
+
+.image{
+    width: 45vw;
+    overflow-y: hidden;
+    overflow: hidden;
+    margin-top: 7vh;
+    display: flex;
+    margin-left: 5vw;
+}
+.image img{
+    width: 45vw;
+    height: 70vh;
+    animation:slide-images  15s linear infinite;
+    
+}
+
+@keyframes slide-images {
+    0% , 100%{
+        transform: translateX(0%);
+    }
+    12.5%{
+        transform: translateX(0%);
+        
+    }
+    25%{
+        transform: translateX(-100%);
+        
+    }
+    37.5%{
+        transform: translateX(-100%);
+        
+    }
+    
+    50%{
+        transform: translateX(-200%);
+        
+    }
+    62.5%{
+        transform: translateX(-200%);
+        
+    }
+    75%{
+        transform: translateX(-300%);
+        
+    }
+    87.5%{
+        transform: translateX(-300%);
+        
+    }
+}
+
+.dept-links{
+    display: flex;
+    margin-top: -20px;
+    flex-direction: column;
+}
+
+#col-blue span{
+    color: blue;
+}
+
+#col-red span{
+    color: red;
+}
+
+.sec{
+    padding: 10px;
+    margin: 5px;
+    position: relative;
+    border-top: 1px solid gray;
+    display: flex;
+}
+.about{
+    width: 60%;
+    padding: 40px;
+}
+.about div{
+    margin-top: 10px;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
+
+.impo{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 30%;
+}
+
+.impo div{
+    margin-top: 30px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.impo .con{
+    margin: 0;
+    width: 100%;
+    border-radius: 10px;
+    border-left: 3px solid red;
+    background-color: #B91111;
+}
+
+.impo .par{
+    border-left: 0px;
+    background-color: rgb(209, 206, 206);
+}
+
+.about-college-img{
+    margin-left: -10px;
+}
+
+.visitor{
+    margin-left: 35vw;
+    align-items: center;
+    padding: 8vh 8vw;
+    height: 20vh;
+}
+
+
+.visitor h4{
+    margin-left:3vw ;
+}
+
+.visitor img{
+    height: 8vh;
+}
+
+footer{
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(160, 9, 9);
+    color: white;
+}
+
+.foot,.f2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot img{
+    height: 8vh;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-right: 1vw;
+
+}
+
+.cont{
+    font-size: 1.2rem;
+    margin: 5vh 5vw;
+}
+
+.cont div{
+    width: 70vw;
+    padding: 5vh 5vw;
+    border-bottom: 1px solid gray;
+}
+.cont img{
+    width: 60vw;
+}
+
+.cont h1{
+    padding: 2vw;
+    border-left:4px solid red ;
+}
+
+.comm{
+    font-size: 1.2rem;
+    margin: 5vh 5vw;
+    padding: 3vh 3vw;
+    
+}
+.comm div{
+    padding: 3vh 3vw;
+}
+.comm h1{
+    border-left:4px solid red ;
+    padding: 1vw;
+}
+.comm h3{
+    border-left:4px solid red ;
+    padding: 1vw;
+}
+
+.cont1{
+    margin: 5vw 3vh;
+    padding: 2vh 2vw;
+    width: 70vw;
+}
+.cont1 h1{
+    border-left: 3px solid red;
+    padding: 1vw;
+}
+.call ul li{
+    display: flex;
+    align-items: baseline;
+}
+
+.guide{
+    margin: 5vw 5vh;
+    width: 70vw;
+    padding: 3vh;
+    box-sizing: border-box;
+}
+
+.sub{
+    padding: 3vw;
+}
+.bt1,.bt2{
+    border: 1px solid black;
+    border-radius: 5vw;
+    width: 15vw;
+    padding: 1vh 1vw;
+    margin-bottom: 2vh; 
+    background-color: black;
+}
+
+.guide a{
+    text-decoration: none;
+    color: white;
+}
+.reg img{
+    width: 50vw;
+}
+
+.guide h1{
+    border-left: 3px solid red;
+    padding: 1vw;
+}
+.guide h2{
+    border-left: 3px solid red;
+    padding: 1vw;
+}
+.guide h3{
+    border-left: 3px solid red;
+    padding: 1vw;
+}
+
+.main{
+    padding: 5vh 5vw;
+    margin-left: 30vw;
+}
+
+.main form input, .main form textarea{
+    width: 30vw;
+    display: block;
+
+}
+.main form{
+    display: block;
+}
+#text{
+    height: 5vh;
+}
+
+#email{
+    height: 5vh;
+}
+
+#msg{
+    height: 20vh;
+}
+.but{
+    padding: 1vw 1vh;
+    
+}
+
+.loc{
+    text-align: center;
+    margin: 5vh 5vw;
+    padding: 10vh 10vw;
+}
+.loc iframe{
+    height: 40vh;
+    margin-left: 10vw;
+}
+
+.foot-img{
+    padding-left: 10px;
+}
