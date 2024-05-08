@@ -215,18 +215,11 @@ nav ul li a{
 .visitor{
     margin-left: 35vw;
     align-items: center;
-    padding: 8vh 8vw;
+    padding: 9vh 9vw;
     height: 20vh;
+    font-size: 2rem;
 }
 
-
-.visitor h4{
-    margin-left:3vw ;
-}
-
-.visitor img{
-    height: 8vh;
-}
 
 footer{
     justify-content: center;
@@ -324,6 +317,13 @@ footer{
     text-decoration: none;
     color: white;
 }
+.bt1 a,.bt2 a{
+    text-decoration: none;
+    color: white;
+}
+.bu{
+    padding-left: 2vw;
+}
 .reg img{
     width: 50vw;
 }
@@ -382,4 +382,17 @@ footer{
 
 .foot-img{
     padding-left: 10px;
+}
+
+.fac{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20vw;
+    padding: 5vh 5vw;
+    box-sizing: border-box;
+}
+.fac h1{
+    border-left:3px solid red ;
+    padding: 1vw;
 }
